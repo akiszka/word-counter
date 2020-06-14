@@ -8,9 +8,9 @@
 #include <locale>
 
 int main(int argc, char** argv) {
-	std::setlocale(LC_ALL, "pl_PL.UTF8");
+	std::setlocale(LC_ALL, "en_US.UTF8");
 
-	std::wcout << L"This is WERGUR SECEME high-speed, high-capacity, low-memory text analyser." << std::endl;
+	std::wcout << L"This is word-counter by Antoni Kiszka - a high-speed, high-capacity, low-memory text analyser." << std::endl;
 	std::wcout << L"Please enter the files you wish to analyse followed by an EOF." << std::endl;
 
 	std::vector<std::wstring> filenames;
